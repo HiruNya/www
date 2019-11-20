@@ -10,6 +10,6 @@ command = "zola build --base-url $DEPLOY_PRIME_URL"
 
 [[redirects]]
 from = "/docs/cordis/*"
-to = "https://hiru-cordis.netlify.com/cordis/*"
+to = "https://hiru-cordis.netlify.com/*"
 status = 200
 
