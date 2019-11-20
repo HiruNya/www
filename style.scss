@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+
+// $body-background-color: $purple;
+// $primary: darken($purple, 20%);
+$primary: $purple;
+$tabs-boxed-link-active-background-color: $red;
+$tabs-boxed-link-hover-background-color: $red;
+$tabs-boxed-link-active-border-bottom-color: $red;
+
+@import "node_modules/bulma/bulma.sass";
