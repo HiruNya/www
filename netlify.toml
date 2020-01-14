@@ -9,6 +9,11 @@ ZOLA_VERSION = "0.9.0"
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
 [[redirects]]
+from = "/docs/dawn-wait"
+to = "http://hirunya.github.io/dawn-wait/dawn_wait/"
+status = 200
+
+[[redirects]]
 from = "/docs/dawn-wait/*"
 to = "http://hirunya.github.io/dawn-wait/dawn_wait/:splat"
 status = 200
