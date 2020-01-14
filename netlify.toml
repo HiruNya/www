@@ -9,11 +9,11 @@ ZOLA_VERSION = "0.9.0"
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
 [[redirects]]
-from = "/docs/*"
-to = "https://hiru-cordis.netlify.com/:splat"
+from = "/docs/dawn-wait/*"
+to = "https://hirunya.github.io/dawn-wait/dawn_wait/:splat"
 status = 200
 
 [[redirects]]
-from = "/docs/dawn-wait/*"
-to = "https://hirunya.github.io/dawn-wait/dawn_wait/:splat"
+from = "/docs/*"
+to = "https://hiru-cordis.netlify.com/:splat"
 status = 200
