@@ -20,5 +20,5 @@ status = 200
 
 [[redirects]]
 from = "/demo/warp-petstore/*"
-to = "https://hiru-cordis.netlify.com/:splat"
+to = "https://hiru-warp-petstore.netlify.com/:splat"
 status = 200
