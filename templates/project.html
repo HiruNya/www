@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %} {{ page.title }} {% endblock title %}
+{% block body %}
+<div class="section">
+    <div class="container">
+        <div class="level">
+            <div class="title level-left">{{page.title}}</div>
+            <div class="level-right">
+                {% if "deprecated" in page.extra and page.extra.deprecated %}
+                <span class="tag is-danger" alt="This project has been deprecated">Deprecated</span>
+                {% endif %}
+                {% if "git" in page.extra %}
+                <a class="tags has-addons" href="{{page.extra.git}}">
+                    <div class="tag is-dark"><span class="icon is-small"><i class="fab fa-github"></i></span></div>
+    <!--                <div class="tag is-info"><span class="icon is-small"><i class="fas fa-star"></i></span></div>-->
+                    <span class="tag is-info">View on Github</span>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="subtitle">{{page.description}}</div>
+        <div class="content">
+            {{page.content | safe}}
+        </div>
+    </div>
+</div>
+{% endblock body %}

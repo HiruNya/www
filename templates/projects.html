@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="section">
+    <div class="container">
+        <h1 class="title">My Personal Projects</h1>
+        <div class="columns is-multiline">
+            {% for project in section.pages %}
+            <div class="column is-one-third">
+                <div class="card">
+                    <header class="card-header"><div class="card-header-title is-centered">
+                        {{project.title}}
+                    </div></header>
+                    <div class="card-content">
+                        {{project.description}}
+                        {% if "deprecated" in project.extra and project.extra.deprecated %}
+                            <span class="tag is-danger">Deprecated</span>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer">
+                        <a class="card-footer-item" href="{{project.permalink}}">
+                            <span class="icon is-medium"><i class="fas fa-external-link-alt"></i></span>
+                            <span>More</span>
+                        </a>
+                        {% if "git" in project.extra %}
+                        <a class="card-footer-item" href="{{project.extra.git}}">
+                            <span class="icon is-medium"><i class="fab fa-github"></i></span>
+                            <span>Github</span>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock body %}
