@@ -30,7 +30,8 @@
                         <span class="icon is-small"><i class="fas fa-code" aria-hidden="true"></i></span>
                         <span><strong>Projects</strong></span>
                     </a></li>
-                    <li><a>
+                    <li {% if current_path is starting_with("blog") %} class = "is-active" {% endif %}>
+                    <a href="/blog">
                         <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
                         <span>Blog</span>
                     </a></li>
