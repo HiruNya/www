@@ -8,6 +8,9 @@ ZOLA_VERSION = "0.10.0"
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
 
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
 [[redirects]]
 from = "/docs/dawn-wait/*"
 to = "https://hiru-dawn-wait.netlify.com/dawn_wait/:splat"
