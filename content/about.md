@@ -23,7 +23,8 @@ Societies: Developers Society, Software Engineering Students Association, Comput
 
 ## Experience
 
-#### Programming Tutor – Auckland Grammar Programming Group
+**Programming Tutor – Auckland Grammar Programming Group** |
+Feb 2018 to Present\
 - Responsible for designing and delivering interactive classes on Python
 and Computer Science concepts to a cohort of 30 students.
 - Provides virtual programming support to students learning Python and Rust.
