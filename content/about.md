@@ -74,7 +74,7 @@ which are reflected in my personal projects like [Nyanko] which is a cross-platf
 <span class="icon is-medium"><i class="fas fa-globe"></i></span> [hiru.dev](https://hiru.dev)\
 <span class="icon is-medium"><i class="fas fa-envelope"></i></span> [hiru@hiru.dev](mailto:hiru@hiru.dev)\
 <span class="icon is-medium"><i class="fab fa-github"></i></span> [HiruNya](https://github.com/HiruNya)\
-<span class="icon is-medium"><i class="fab fa-linkedin-in"></i></span> [LinkedIn](https://www.linkedin.com/in/hiruna-jayamanne)
+<span class="icon is-medium"><i class="fab fa-linkedin-in"></i></span> [LinkedIn](https://www.linkedin.com/in/hirunaj)
 
 </div>
 </div>
