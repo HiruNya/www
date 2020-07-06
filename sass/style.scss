@@ -3,9 +3,17 @@
 @import "bulma/sass/utilities/initial-variables";
 @import "bulma/sass/utilities/functions";
 
+//$family-primary: "Cantarell";
+
 // $body-background-color: $purple;
 // $primary: darken($purple, 20%);
 $primary: $purple;
+
+$custom-colors: (
+        announcement-tag: rgba(238, 67, 255, 0.97),
+        rust-tag: brown,
+        announcement: red,
+);
 
 @import "bulma/bulma.sass";
 

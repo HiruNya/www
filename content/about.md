@@ -31,6 +31,8 @@ and Computer Science concepts to a cohort of 30 students.
 
 ## Achievements
 
+- **1st Place (2020)** – SkillsMe Covid19 Hackathon\
+	Placed 1st out of 30 industry professionals.
 - **1st Place (2019)** – Auckland University Computer Science Society Hackathon\
 	Placed 1st out of 50 undergraduate and postgraduate students.
 - **4th Place (2018)** – New Zealand Programming Contest (NZPC)\

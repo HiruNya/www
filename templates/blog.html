@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %} Blog {% endblock title %}
+{% block body %}
+<section class="section">
+    <div class="container">
+        <h1 class="title">My Blog</h1>
+        {% for post in section.pages %}
+        <div class="box">
+            <div class="level">
+                <div class="level-left">
+                    <h2 class="title is-4">{{ post.title }}</h2>
+                </div>
+                <div class="level-left">
+                    <span class="subtitle">{{ post.date }}</span>
+                </div>
+            </div>
+            <div class="container">
+                {{ post.content | truncate(length=750) | safe }}
+            </div>
+            <div class="level">
+                <div class="level-left">
+                    <a href="{{ post.permalink }}" class="is-link">Read More</a>
+                </div>
+                <div class="level-right">
+                    <div class="tags">
+                        {% for tag in post.taxonomies.tags %}
+                            <span class="tag is-dark is-{{tag | lower}}-tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock body %}
