@@ -15,9 +15,9 @@ that can benefit myself and others.
 **Bachelor of Software Engineering (Honours)**\
 University of Auckland | March 2019 to November 2022
 
-Cumulative GPA: 7.375/9 (A/A- average)
+Cumulative GPA: 7.917/9 (A/A- average)
 
-Intro to Engineering Computation – A+
+Intro to Data Structures and Algorithms – A+
 
 Societies: Developers Society, Software Engineering Students Association, Computer Science Society, Asian Board Games Club.
 
@@ -31,8 +31,14 @@ and Computer Science concepts to a cohort of 30 students.
 
 ## Achievements
 
+- **1st Place (2020)** - WDCC x AUCS Hack Weekend
+    Placed 1st out of 70 students.\
+    Made a web app that allows students to learn the names of the classmates in their course
+    and how to pronounce them using flashcards.
 - **1st Place (2020)** – SkillsMe Covid19 Hackathon\
 	Placed 1st out of 30 industry professionals.
+	Made a service that allows the elderly to get in touch with mutual aid groups via landline.
+	(Frontend: Flutter, Backend: Typescript)
 - **1st Place (2019)** – Auckland University Computer Science Society Hackathon\
 	Placed 1st out of 50 undergraduate and postgraduate students.
 - **4th Place (2018)** – New Zealand Programming Contest (NZPC)\
@@ -57,15 +63,15 @@ which are reflected in my personal projects like [Nyanko] which is a cross-platf
 - Rust
 - Python
 - Javascript/Typescript
+- F#
 - Dart
 - Java
 
 #### Frameworks:
-- Qt
 - AWS
-- Firebase
-- Flutter
+- Qt
 - Flask
+- Flutter
 
 #### Technology:
 - Linux
