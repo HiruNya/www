@@ -26,17 +26,17 @@
         <div class="tabs is-boxed is-centered is-fullwidth">
             <div class="container">
                 <ul>
-                    <li {% if current_path == "" or current_path is starting_with("projects") %} class="is-active" {% endif %}>
+                    <li {% if current_path == "/" or current_path is starting_with("/projects") %} class="is-active" {% endif %}>
                     <a href="/projects">
                         <span class="icon is-small"><i class="fas fa-code" aria-hidden="true"></i></span>
                         <span><strong>Projects</strong></span>
                     </a></li>
-                    <li {% if current_path is starting_with("blog") %} class = "is-active" {% endif %}>
+                    <li {% if current_path is starting_with("/blog") %} class = "is-active" {% endif %}>
                     <a href="/blog">
                         <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
                         <span>Blog</span>
                     </a></li>
-                    <li {% if current_path is starting_with("about") %} class=" is-active" {% endif %}>
+                    <li {% if current_path is starting_with("/about") %} class=" is-active" {% endif %}>
                     <a href="/about">
                         <span class="icon is-small"><i class="fas fa-user" aria-hidden="true"></i></span>
                         <span>About Me</span>
