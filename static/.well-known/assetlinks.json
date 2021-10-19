@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.softeng3062021.plushiesrus",
+    "sha256_cert_fingerprints":
+    ["C6:F7:15:B1:06:58:D2:A6:48:1F:84:9D:C3:33:3C:B8:41:D3:27:40:25:0E:38:87:B5:55:99:74:B3:10:B1:1D"]
+  }
+}]
